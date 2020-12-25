@@ -1,0 +1,129 @@
+body{
+	background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	overflow-x: hidden;
+	
+	}
+	.Home{
+		text-align: center;
+		width: 100%;
+	}
+	.But{
+		text-align: center;
+	}
+h1{
+	font-size: 90;
+	font-family: cursive;
+	color: white;
+	animation-name: heading;
+	animation-duration: 3s;
+
+	
+
+	
+	
+}
+@keyframes heading{
+0%{
+	margin-left: -10000
+}
+60%{
+	margin-left: 1200
+}
+
+100%{
+	font-size: 90;
+}
+}
+
+p{
+	font-size: 30;
+	font-family: cursive;
+	color: white;
+}
+.games{
+	margin-top: 70;
+	font-family: fantasy;
+	border-radius: 14%;
+	animation-name: testing;
+		animation-duration: 4s;
+    font-size: 50;
+    color: yellow;
+	border-style: solid;
+	border-width: 10px;
+	border-color: brown;
+	background-color: transparent;
+	padding: 10;
+	cursor: pointer;
+	}
+
+	
+	
+	.games:hover{
+		transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+	transform: scale(0.9);}
+	.contact:hover{
+		transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+	transform: scale(0.9);}
+	.about:hover{
+		transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+	transform: scale(0.9);}
+	.social:hover{
+		transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+	transform: scale(0.9);}
+	.contact{
+	margin-top: 70;
+	font-family: fantasy;
+	border-radius: 14%;
+	animation-name: testing;
+		animation-duration: 4s;
+    font-size: 50;
+    color: yellow;
+	border-style: solid;
+	border-width: 10px;
+	border-color: brown;
+	background-color: transparent;
+	padding: 10;
+	cursor: pointer;
+	}
+	.about{
+	margin-top: 70;
+	font-family: fantasy;
+	border-radius: 14%;
+	animation-name: testin;
+		animation-duration: 4s;
+    font-size: 50;
+    color: yellow;
+	border-style: solid;
+	border-width: 10px;
+	border-color: brown;
+	background-color: transparent;
+	padding: 10;
+	cursor: pointer;
+	}
+	.social{
+	margin-top: 70;
+	font-family: fantasy;
+	border-radius: 14%;
+	animation-name: testing;
+		animation-duration: 4s;
+    font-size: 50;
+    color: yellow;
+	border-style: solid;
+	border-width: 10px;
+	border-color: brown;
+	background-color: transparent;
+	padding: 10;
+	cursor: pointer;
+	}
+	@keyframes testing{
+		0%{margin-right: 100;}
+		100%{margin-right: 0;}
+	}
+	
